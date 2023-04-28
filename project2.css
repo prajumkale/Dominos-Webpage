@@ -1,8 +1,21 @@
+
 body{
-    margin: 0px;
-    background-color:rgb(243, 243, 243);
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--primary-color);
+    font-family: 'Noto Serif', serif;
+font-family: 'Roboto Condensed', sans-serif;
  }
- 
+ :root{
+    --color:rgb(234, 232, 232);
+    --primary-color: #dbdddd;
+    --secondary-color: #212121;
+ }
+ .dark-theme{
+    --color:#0f2a49;
+    --primary-color: #042244;
+    --secondary-color: #a8a5a5;
+ }
  
  /*Header Section*/
 header{
@@ -17,20 +30,29 @@ header{
 
 }
 h4{
-    font-family: sans-serif;
+    
     text-decoration: none;
     padding-bottom:0px;
     margin-top: 0;
     margin: 0;
 }
 h2{
-    font-family:sans-serif;
+   
     font-size:25px;
     text-decoration: none;
     padding-left: 100px;
     padding-bottom:0px;
     margin-top: 10;
     margin: 0;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    background-color: rgb(31, 55, 104);
+}
+nav ul{
+    flex: 1;
+    text-align: right;
 }
 
                       /*DeliveryBoy Animation*/
@@ -60,14 +82,13 @@ h2{
     margin-left: 10%;
     display:flex;
     list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     cursor: default;
 }
 
 .heading ul li:hover{
     transform: scale(1.1);
-    border-bottom-color: #0a4366;
+    border-bottom-color: #416c87;
     border-bottom-style: solid;
 }
 
@@ -77,14 +98,13 @@ h2{
     text-align: center;
     float:center;
     padding: 10px 10px;
-  color: #555;
   margin: 2px;
   text-transform: uppercase;
   line-height: 36px;
   border-radius: 2px 2px 0 0;
-  font-size: 15px;
+  font-size: 18px;
   font-weight:bold;
-  border: 0 solid #ddd;
+  border: 0 solid;
     border-bottom-style:groove;
     border-top-right-radius: .25rem;
     display: inline;
@@ -146,7 +166,6 @@ h2{
     background-color: rgb(238, 41, 41);
     text-decoration: none;
     text-transform: uppercase;
-    font-family:Libre Baskerville, serif;
     color: #fff;
     padding: 20px 10px;
     text-align: center;
@@ -171,15 +190,16 @@ h2{
     margin-top:4%;
     float: left;
     box-sizing:border-box;
-    font-size: 12px;
+    font-size: 18px;
     line-height: normal;
-    color: #515151;
+    color: #525151;
     font-weight: 700;
     text-align: left;
 
 }
 .tileContainer{
-    background-color: white;
+    color: var(--secondary-color);
+    background-color:var(--color);
 }
 
 .tileContainer:hover{
@@ -216,7 +236,7 @@ h2{
 
 .compSubHeading{
     font-size:1.3rem;
-    color:rgb(122,122,122);
+    color: var(--secondary-color);
     line-height: 1.2;
     margin-top: 0.5rem;
     width: 150%;
@@ -230,7 +250,7 @@ h2{
     padding: 0.800rem;
     border: 1px solid rgb(0, 171, 0);
     color: rgb(0, 171, 0);
-    background-color: white;
+    background-color: var(--primary-color);
     float:right;
     border-radius: 3px;
     outline:rgb(0, 171, 0);
@@ -293,10 +313,9 @@ h2{
 }
 .about>p{
     display: block;
-    color: #54565b;
+    color: var(--secondary-color);
     background: 0 0;
     border-width: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 25px;
     font-weight: 400;
@@ -308,7 +327,7 @@ h2{
 
 }
 .about>h3{
-    color: black;
+    color: var(--secondary-color);
     background: 0 0;
     border-width: 0;
     font-size: 25px;
@@ -398,7 +417,6 @@ h2{
     float:none;
     display: inline-block;
     list-style:none;   
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .subfooter2{

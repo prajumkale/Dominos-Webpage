@@ -1,4 +1,113 @@
 
+
+
+.redeemcode{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20% auto;
+    padding: 0% 0%;
+    width: fit-content;
+}
+#cpnCode{
+    border: 1px double #4c085d;
+    padding: 10px 30px;
+    border-right: 0;
+    color: rgb(14, 14, 15);
+}
+#cpnBtn{
+    border: 1px solid #4c085d;
+    background: #ebe9e9;
+    padding: 10px 40px;
+    color: rgb(14, 14, 15);
+    cursor: pointer;
+}
+.redeemcode{
+    margin-top:1px;
+}
+
+
+#main{
+    height: 700px;
+    z-index:100;
+  }
+  #coupon{
+    height:300px;
+    width:600px;
+    z-index:100;
+    position: relative;
+    visibility: hidden;
+    opacity: 10;
+  }
+  
+ 
+  
+  .card {
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(63, 111, 160, 0.744);
+    background-color: rgb(77, 16, 106);
+    padding: 50px 10px;
+    position:absolute;
+    
+  }
+  
+  .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
+  
+  .co-img img {
+    width: 300px;
+    height: 300px;
+
+  }
+  .close{
+    position: relative;
+    top: 0;
+    right: 14px;
+    font-size: 30px;
+    transform: rotate(45deg);
+    color: #fcfcfc;
+  }
+  
+  
+  .content h1 {
+    font-size: 45px;
+    margin-left: -20px;
+    color: #fcfcfc;
+  }
+  
+  .content h1 span {
+    font-size: 18px;
+  }
+  .content h2 {
+    font-size: 18px;
+    margin-left: -20px;
+    color: #fcfcfc;
+    text-transform: uppercase;
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: #c3c2c2;
+    margin-left: -20px;
+  }
+
+#coupon{
+    height:300px;
+    width:600px;
+    z-index:100;
+    position: absolute;
+    margin-top: -47%;
+    margin-left: 30%;
+    visibility: hidden;
+}
+
+
 body{
     margin: 0%;
     padding: 0%;
@@ -639,4 +748,6 @@ nav ul{
     display:flexbox;
 
 }
+
+
 

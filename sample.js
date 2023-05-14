@@ -1,11 +1,11 @@
 function loadCoupon(){
     
-    document.getElementById('main').style.opacity = '1';
+    document.getElementById('main').style.opacity = '0.7';
     document.getElementById('coupon').style.visibility = 'visible';
 }
 
 function closeCoupon(){
-    document.getElementById('main').style.opacity = '0';
+    document.getElementById('main').style.opacity = '1';
     document.getElementById('coupon').style.visibility = 'hidden';
 }
 

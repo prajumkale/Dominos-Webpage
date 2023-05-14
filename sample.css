@@ -10,33 +10,33 @@
     width: fit-content;
 }
 #cpnCode{
-    border: 1px double #4c085d;
+    border: 1px double black;
     padding: 10px 30px;
     border-right: 0;
     color: #fff;
-    font-size: 15px;
+    
 }
 
 
 
 #cpnBtn{
-    border: 1px solid #4c085d;
+    border: 1px solid;
     background: #ebe9e9;
-    padding: 10px 40px;
-    color: #4c085d;
+    padding: 5px 40px;
+    color: #19021f;
     cursor: pointer;
-    font-size: 15px;
 }
 .redeemcode{
     margin-top:1px;
-    position: relative;
-    bottom: 60px;
+    
 }
 
 
 #main{
-    height: 700px;
+    background-color: #0c4f79;
+    height: 800px;
     z-index:10;
+   
   }
   #coupon{
     height:300px;
@@ -44,7 +44,6 @@
     z-index:100;
     position: relative;
     visibility: hidden;
-    opacity: 10px;
   }
   
  
@@ -54,8 +53,8 @@
     height: 350px;
     border-radius: 5px;
     box-shadow: 0 4px 6px 0 rgba(63, 111, 160, 0.744);
-    background-color: rgb(77, 16, 106);
-    padding: 50px 10px;
+    background-color: #1a1919;
+    padding: 10px 10px;
     position:absolute;
     
   }
@@ -63,15 +62,14 @@
   .main{
     display: flex;
     justify-content: space-between;
-   
+    padding: 0 10px;
     align-items: center;
   }
   
   .co-img img {
     width: 300px;
     height: 300px;
-    position: relative;
-    bottom: 10px;
+   
   }
   .close{
     position: relative;
@@ -85,6 +83,7 @@
   
   .content h1 {
     font-size: 45px;
+    margin-left: -20px;
     color: #fcfcfc;
   }
   
@@ -92,12 +91,15 @@
     font-size: 18px;
   }
   .content h2 {
+    font-size: 18px;
+    margin-left: -20px;
     color: #fcfcfc;
     text-transform: uppercase;
   }
   
   .content p {
     font-size: 16px;
+    margin-left: -20px;
     color: #c3c2c2;
   }
 
@@ -121,7 +123,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  :root{
     --color:rgb(234, 232, 232);
-    --primary-color: #dbdddd;
+    --primary-color: #d8d9da;
     --secondary-color: #212121;
  }
  .dark-theme{
